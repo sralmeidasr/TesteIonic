@@ -1,8 +1,8 @@
-![SR&ALMEIDA]
+- Alan Almeida
 
 - SantanderTecnologia/TesteIonic: criar um clone do aplicativo da Netflix, se tornou completamente inviável pela falta de tempo no momento. Trabalhando até tarde e aos finais de semana no projeto atual, decidi desenvolver um app que demonstrasse meu conhecimento e que ao mesmo tempo não me tomasse tempo demais.
 
-[Espero que gostem!]
+**Espero que gostem!**
 
 * Planejar o Designer do Aplicativo.
 * Gerar relatórios, gráficos e formulários.
@@ -14,12 +14,10 @@
 
 **Importante: com este aplicativo iremos criar telas fantásticas, criar gráficos e elementos profissionais e interagir com os principais dispositivos do seu smartphone.**
 
-- “Quem cuida de $1 cuida de $1 Milhão”
+**Smart Money**
 
-<img src="assets/imgs/DigaOiParaseuApp.png" alt="Schedule"/>
- 
-![Smart Money](assets/imgs/DesignerdoApp.png) 
-
+<img src="src/assets/imgs/DigaOiParaseuApp.png" alt="Schedule" />
+<img src="src/assets/imgs/DesignerdoApp.png" alt="Schedule" />
 <img src="src/assets/imgs/VisãoGeral.png" alt="Schedule" />
 <img src="src/assets/imgs/Detalhamento.png" alt="Schedule" />
 <img src="src/assets/imgs/AçãoPrincipal.png" alt="Schedule" />
