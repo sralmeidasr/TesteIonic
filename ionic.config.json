@@ -1,5 +1,7 @@
 {
   "name": "smartMoney",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
