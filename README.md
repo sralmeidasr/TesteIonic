@@ -17,10 +17,14 @@
 **Smart Money**
 
 - Instalação dos softwares necessários para o aplicativo.
-- IMPORTANTE: Por questões de migração de versão do Ionic, instale o Ionic pelo seguinte comando: "npm install ionic@4.8.0 -g​"
 
-1. Abrir o Prompt de Comando
-2. Digitar sysdm.cpl SystemProperties
+# Plugins 
+
+1. Angular 2 TypeScript Emmet
+2. Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout
+3. Debugger for Chrome
+4. ESLint
+5. Sublime Text Keymap and Settings Importer
 
 # Instalando o driver ADB no Windows
 
