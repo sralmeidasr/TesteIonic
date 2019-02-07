@@ -1,61 +1,85 @@
-# Show me the code
+![SR&ALMEIDA]
 
-### # DESAFIO:
+- SantanderTecnologia/TesteIonic: criar um clone do aplicativo da Netflix, se tornou completamente inviável pela falta de tempo no momento. Trabalhando até tarde e aos finais de semana no projeto atual, decidi desenvolver um app que demonstrasse meu conhecimento e que ao mesmo tempo não me tomasse tempo demais.
 
-Você deverá criar um aplicativo, que será um clone do aplicativo do Netflix. 
+[Espero que gostem!]
 
-São obrigatórias:
- * Página de cadastro.
- * Página de login, deve ser possivel autenticar-se utilizando a digital (Fingerprint/TouchId), para permitir que o cliente acesse seu app com mais facilidade.
- * Home, onde serão exibidas diversas listas horizontais de filmes, que você poderá organizar como quiser. 
-    Exemplo: Exibir listas de acordo com genêro, exibir listas de acordo com popularidade, etc. Consulte as opções de query disponíveis na API e use a criatividade. :smiley:
- * No topo das listas deve haver uma lista de "Favoritos", onde os filmes favoritados pelo cliente devem ser exibidos.
- * Página de informações sobre o filme, como sinopse, ano de lançamento e etc, esta deverá ser exibida quando o cliente clicar em um filme. Deve conter um botão para que o cliente possa favoritar o filme, esta deve ser a marcação utilizada para exibir o filme na lista de favoritos da Home.
+* Planejar o Designer do Aplicativo.
+* Gerar relatórios, gráficos e formulários.
+* Interagir com a câmera e GPS.
+* Salvar informações no banco de dados.
+* Criar um pacote APK e enviar para a Play Store.
+
+**Apresentando o Smart Money. Um aplicativo profissional de gerenciamento de finanças pessoais. Para isso iremos utilizar uma tecnologia de ponta, a mesma que eu utilizo para criar meus próprios aplicativos.**
+
+**Importante: com este aplicativo iremos criar telas fantásticas, criar gráficos e elementos profissionais e interagir com os principais dispositivos do seu smartphone.**
+
+- “Quem cuida de $1 cuida de $1 Milhão”
+
+<img src="assets/imgs/DigaOiParaseuApp.png" alt="Schedule"/>
  
- **Importante: Cada lista de filmes deve ser um componente isolado.**
+![Smart Money](assets/imgs/DesignerdoApp.png) 
 
-### # Avaliação
+<img src="src/assets/imgs/VisãoGeral.png" alt="Schedule" />
+<img src="src/assets/imgs/Detalhamento.png" alt="Schedule" />
+<img src="src/assets/imgs/AçãoPrincipal.png" alt="Schedule" />
+<img src="src/assets/imgs/EsqueletoxPronto.png" alt="Schedule" />
+<img src="src/assets/imgs/Cordova.png" alt="Schedule" />
+<img src="src/assets/imgs/Aplicativoshibridos.png" alt="Schedule" />
 
-Você será avaliado pela usabilidade, por respeitar o design e pela arquitetura do app. É esperado que você consiga explicar as decisões que tomou durante o desenvolvimento através de commits.
+## Editor
 
-* Ionic 4
-* SASS
-* O app deve funcionar no iOS 9 e Android 4.4
-* Splashscreen + Icones
-* Testes unitários (Aqui você é livre pra usar o que quiser. Quer ir de Karma + Jasmine? Quer se aventurar no Jest? Quer sair da curva com Chai + Mocha? Não importa, só queremos que você teste. :heart:)
-* Uso do git
-* Fontes e Cores especificadas abaixo.
+O editor de código que utilizo para construção das minhas apps mobile é o Visual Studio Code da Microsoft. Com ele tenho uma interface muito semelhante aos editores Sublime Text e Atom enquanto mantenho recursos como autocomplete, debugging e outras features presentes apenas em IDE's.
 
-### # APIs e Biblioteca obrigatórias
+O VSCode não é obrigatório e você pode utilizar o que preferir. Dentre os que eu recomendo estão: VSCode, Sublime Text, Atom e Vim.
 
-* Para o cadastro e login: [FirebaseAuthentication](https://firebase.google.com/docs/auth/?hl=pt-br)
-* Para a autenticação: [Fingerprint](https://ionicframework.com/docs/native/fingerprint-aio/)/[Touch ID](https://ionicframework.com/docs/native/touch-id/).
-* Para listagem de filmes: [MovieDB](https://developers.themoviedb.org/3/getting-started/introduction)
-* Exemplo de [lista horizontal e componente](https://i.imgur.com/LKkIA8v.png)
-* Para armazenar os filmes favoritados: [Cloud Firestore](https://firebase.google.com/docs/firestore/?hl=pt-br)
+Snippets para VSCode: https://code.visualstudio.com/
 
-### Paleta de cores
+- [Instalação dos softwares necessários para o aplicativo.]
+**Também é necessário para configuração abrir o as propriedades do sistema (variáveis de ambiente), para isso faça:**
 
-$red: #E50914 (Para detalhes, colorir botões e etc);
+- [IMPORTANTE] Por questões de migração de versão do Ionic, instale o Ionic pelo seguinte comando: "npm install ionic@4.8.0 -g​"
 
-$black: #221F1F (Backgrounds);
+1. Abrir o Prompt de Comando
+2. Digitar sysdm.cpl SystemProperties
 
-$white: #f5f5f1 (Texto)
+**Na aba Variáveis de Ambiente adicionar (lembre-se que o "=" não faz parte do nome e do conteúdo):**
 
-### Fonte
+1. JAVA_HOME=C:\Program Files\Java\jdk1.8.0_181
+2. ANDROID_HOME=C:\Android\SDK
+3. PATH=%PATH%;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools\bin
 
-https://fonts.google.com/specimen/K2D
+# Instalando o driver ADB no Windows
 
-### # Observações gerais
+- Para ligar o Smartphone ao Ionic é necessário instalar o Driver ADB no Windows, use o link do artigo: https://www.tecmundo.com.br/android/92890-instalar-drivers-adb-dispositivos-android-windows.htm.
 
-Adicione um arquivo [README.md](http://README.md) com os procedimentos para executar o projeto.
+### Windows 
 
-Comente qualquer coisa nele que você gostaria de nos contar, como a abordagem que você utilizou na solução do desafio, se você usou alguma arquitetura de CSS, como suas escolhas influenciaram na performance e etc.
+1. Google Chrome: https://www.google.com/intl/pt-BR_ALL/chrome/
+2. Visual Studio Code: https://code.visualstudio.com/
+3. Java JDK:[Configurando SDK] http://www.oracle.com/technetwork/pt/java/javase/d...
+4. Android Studio: https://developer.android.com/studio/
+5. NodeJS:[Instalando dependências] https://nodejs.org/
 
-Pedimos que trabalhe sozinho e não divulgue o resultado na internet.
+### Linux
 
-Faça um fork desse desse repositório em seu Github e nos envie um Pull Request com o resultado, por favor informe por qual empresa você esta se candidatando.
+1. Google Chrome: https://www.google.com/intl/pt-BR_ALL/chrome/
+2. Visual Studio Code: https://code.visualstudio.com/
+3. Java JDK:[Configurando SDK] http://www.oracle.com/technetwork/pt/java/javase/d...
+4. Android Studio: https://developer.android.com/studio/
+5. NodeJS:[Instalando dependências] https://nodejs.org/
 
-### # Importante: não há prazo de entrega, faça com qualidade!
+### OS X (Mac)
 
-# BOA SORTE!
+1. Google Chrome: https://www.google.com/intl/pt-BR_ALL/chrome/
+2. Visual Studio Code: https://code.visualstudio.com/
+3. Java JDK:[Configurando SDK] http://www.oracle.com/technetwork/pt/java/javase/d...
+4. Android Studio: https://developer.android.com/studio/
+5. NodeJS:[Instalando dependências] https://nodejs.org/
+
+## File Structure of App
+
+```
+ionic-smartMoney-app/
+
+```
