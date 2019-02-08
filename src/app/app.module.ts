@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { SQLite } from '@ionic-native/sqlite/ngx';
 
 import { NewEntryPageModule } from '../pages/new-entry/new-entry.module';
 
@@ -27,6 +28,7 @@ import { NewEntryPageModule } from '../pages/new-entry/new-entry.module';
   providers: [
     StatusBar,
     SplashScreen,
+    SQLite,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
